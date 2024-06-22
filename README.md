@@ -9,7 +9,8 @@ This project is a web application designed to predict weather conditions worldwi
 *Key Features:*
 - Search for weather by location
 - Real-time weather updates
-- 5-day weather forecast display
+- Humidity and wind spped forecast display
+- lattitude and longitude of the place updates
 
 Explore weather conditions globally with this intuitive web tool!
 
