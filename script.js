@@ -12,7 +12,7 @@ let getWeather = () => {
     }
     else {
 
-            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${key}&units=metric`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${hello}&units=metric`;
 
             cityRef.value = "";
 
@@ -76,3 +76,4 @@ let getWeather = () => {
 
 searchBtn.addEventListener("click",getWeather);
 window.addEventListener("load", getWeather);
+hello="f2363ab29bf0613779119ab76d79fc3d";
